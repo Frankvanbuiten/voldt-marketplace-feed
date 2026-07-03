@@ -37,7 +37,12 @@ API_ROOT = "https://api.airtable.com/v0"
 
 
 def env(name, default=None, required=False):
-    val = os.environ.get(name, default)
+    # Treat an empty/whitespace value the same as unset, so an empty GitHub
+    # Actions variable ("${{ vars.X }}" when X is not defined) falls back to
+    # the default instead of overriding it with "".
+    val = os.environ.get(name)
+    if val is None or str(val).strip() == "":
+        val = default
     if required and not val:
         sys.exit(f"ERROR: required environment variable {name} is not set")
     return val
@@ -64,7 +69,8 @@ def fetch_records(token, base_id, table):
     records = []
     offset = None
     while True:
-        params = {"pageSize": 100}
+        # Return fields keyed by field ID (stable) instead of by name.
+        params = {"pageSize": 100, "returnFieldsByFieldId": "true"}
         if offset:
             params["offset"] = offset
         url = base_url + "?" + urllib.parse.urlencode(params)
@@ -131,22 +137,35 @@ def main():
     base_id = env("AIRTABLE_BASE_ID", required=True)
     table = env("AIRTABLE_TABLE", "Kaufland DE")
     out_path = env("FEED_OUTPUT", "docs/feed.xml")
+
+    # Fields are read by field ID (returnFieldsByFieldId=true), so all mappings
+    # below use Airtable field IDs — stable and unambiguous (unlike names).
+    # Field IDs for the Kaufland DE table:
+    #   fldmjoKFSUZ04vBNq = EAN
+    #   flddPikssfX9HOByh = Product title
+    #   fldGacObhaxghnvbF = Description (rich text)
+    #   fldKPLh1iF8YWTyEI = Status (singleSelect)
+    #   fldZGT8wfUSarYAP0 = Shopify variant ID
+
     # Unique feed key. Use the Shopify variant ID: some products share an EAN,
     # so EAN is NOT unique and must not be the <id>.
-    id_field = env("ID_FIELD", "Shopify variant ID")
-    status_field = env("STATUS_FIELD", "")
-    status_value = env("STATUS_VALUE", "")
+    id_field = env("ID_FIELD", "fldZGT8wfUSarYAP0")
 
-    # Which Airtable fields map to which XML tags.
+    # Only export approved rows. Set STATUS_VALUE="" (or STATUS_FIELD="") to
+    # export everything regardless of status.
+    status_field = env("STATUS_FIELD", "fldKPLh1iF8YWTyEI")
+    status_value = env("STATUS_VALUE", "Ready to publish")
+
+    # Which Airtable fields (by ID) map to which XML tags.
     default_map = {
-        "EAN": "ean",
-        "Product title": "title",
-        "Description": "description",
+        "fldmjoKFSUZ04vBNq": "ean",
+        "flddPikssfX9HOByh": "title",
+        "fldGacObhaxghnvbF": "description",
     }
     field_map = json.loads(env("FIELD_MAP", json.dumps(default_map)))
 
     rich_fields = set(
-        x.strip() for x in env("RICH_FIELDS", "Description").split(",") if x.strip()
+        x.strip() for x in env("RICH_FIELDS", "fldGacObhaxghnvbF").split(",") if x.strip()
     )
 
     records = fetch_records(token, base_id, table)

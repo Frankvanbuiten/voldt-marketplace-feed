@@ -1,0 +1,53 @@
+name: Build Channable feed
+
+on:
+  schedule:
+    # Daily at 05:00 UTC. Adjust if you want another time.
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}   # allows manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-feed
+  cancel-in-progress: true
+
+jobs:
+  build-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate feed
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+          AIRTABLE_BASE_ID: ${{ vars.AIRTABLE_BASE_ID }}
+          AIRTABLE_TABLE: ${{ vars.AIRTABLE_TABLE }}
+          # Optional overrides (set as repo Variables if needed):
+          ID_FIELD: ${{ vars.ID_FIELD }}
+          STATUS_FIELD: ${{ vars.STATUS_FIELD }}
+          STATUS_VALUE: ${{ vars.STATUS_VALUE }}
+          FEED_OUTPUT: docs/feed.xml
+        run: python generate_feed.py
+
+      - name: Commit updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/feed.xml
+          if git diff --cached --quiet; then
+            echo "No changes in feed."
+          else
+            git commit -m "Update Channable feed [skip ci]"
+            git push
+          fi

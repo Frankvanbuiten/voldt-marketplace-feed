@@ -33,11 +33,10 @@ jobs:
           AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
           AIRTABLE_BASE_ID: ${{ vars.AIRTABLE_BASE_ID }}
           AIRTABLE_TABLE: ${{ vars.AIRTABLE_TABLE }}
-          # Optional overrides (set as repo Variables if needed):
-          ID_FIELD: ${{ vars.ID_FIELD }}
-          STATUS_FIELD: ${{ vars.STATUS_FIELD }}
-          STATUS_VALUE: ${{ vars.STATUS_VALUE }}
           FEED_OUTPUT: docs/feed.xml
+          # ID / status / field mapping default to the correct Airtable field IDs
+          # inside generate_feed.py, so no extra variables are needed. Override
+          # only if you know the field IDs (see the script header).
         run: python generate_feed.py
 
       - name: Commit updated feed

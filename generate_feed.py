@@ -151,10 +151,11 @@ def main():
     # so EAN is NOT unique and must not be the <id>.
     id_field = env("ID_FIELD", "fldZGT8wfUSarYAP0")
 
-    # Only export approved rows. Set STATUS_VALUE="" (or STATUS_FIELD="") to
-    # export everything regardless of status.
-    status_field = env("STATUS_FIELD", "fldKPLh1iF8YWTyEI")
-    status_value = env("STATUS_VALUE", "Ready to publish")
+    # Export ALL records regardless of status. To only export approved rows,
+    # set STATUS_FIELD="fldKPLh1iF8YWTyEI" and STATUS_VALUE="Ready to publish"
+    # as repo Variables.
+    status_field = env("STATUS_FIELD", "")
+    status_value = env("STATUS_VALUE", "")
 
     # Which Airtable fields (by ID) map to which XML tags.
     default_map = {

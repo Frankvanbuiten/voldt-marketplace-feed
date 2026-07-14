@@ -92,11 +92,20 @@ def fetch_records(token, base_id, table):
     return records
 
 
-def cdata(value):
-    """Wrap a value in CDATA, escaping any nested CDATA terminators."""
+def render_tag(tag, value, use_cdata):
+    """Render one XML element.
+
+    - Empty value  -> clean empty element, e.g. <ean></ean>
+    - use_cdata    -> wrap in CDATA (for HTML/rich content), only when non-empty
+    - otherwise    -> XML-escaped plain text (for identifiers/plain text)
+    """
     text = "" if value is None else str(value)
-    text = text.replace("]]>", "]]]]><![CDATA[>")
-    return f"<![CDATA[{text}]]>"
+    if text == "":
+        return f"    <{tag}></{tag}>"
+    if use_cdata:
+        safe = text.replace("]]>", "]]]]><![CDATA[>")
+        return f"    <{tag}><![CDATA[{safe}]]></{tag}>"
+    return f"    <{tag}>{escape(text)}</{tag}>"
 
 
 def build_xml(records, field_map, rich_fields, id_field,
@@ -121,9 +130,11 @@ def build_xml(records, field_map, rich_fields, id_field,
             raw = f.get(src_field, "")
             if isinstance(raw, list):
                 raw = ", ".join(str(x) for x in raw)
-            if src_field in rich_fields:
+            is_rich = src_field in rich_fields
+            if is_rich:
                 raw = md_to_html(raw)
-            lines.append(f"    <{xml_tag}>{cdata(raw)}</{xml_tag}>")
+            # CDATA only for non-empty rich (HTML) content; plain text otherwise.
+            lines.append(render_tag(xml_tag, raw, use_cdata=is_rich))
 
         lines.append("  </product>")
         exported += 1

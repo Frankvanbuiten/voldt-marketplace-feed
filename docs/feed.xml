@@ -1,3 +1,1761 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <products>
+  <product>
+    <id>59701231124814</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Renault - Scénic E-Tech]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875685716302</id>
+    <ean><![CDATA[8721008666211]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 16A | 3,7kW charging cable - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875685781838</id>
+    <ean><![CDATA[8721008666235]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 16A | 3,7kW charging cable - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46890435412302</id>
+    <ean><![CDATA[8721008666372]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 32a | 22kW charging cable - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48488251556174</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 2*6mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47238456705358</id>
+    <ean><![CDATA[8721082977357]]></ean>
+    <title><![CDATA[Type 2  | mode 3 | 32a | 22kW | coiled charging cable - 8 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>50709534671182</id>
+    <ean><![CDATA[8721082977586]]></ean>
+    <title><![CDATA[Voldt® Portable EV charger commando plug | 3 phase | 8A - 16A | 11kW + APP - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48489553822030</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 2*4mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>52890116063566</id>
+    <ean><![CDATA[8721325963055]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole blue 32A commando socket - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875686175054</id>
+    <ean><![CDATA[8721008666426]]></ean>
+    <title><![CDATA[Type 2  | mode 3 | 32a | 22kW | coiled charging cable - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>49114106069326</id>
+    <ean><![CDATA[8721082977531]]></ean>
+    <title><![CDATA[Type 1 - schuko | Adjustable 8A - 16A | 3,7kW charging cable - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47229775642958</id>
+    <ean><![CDATA[8721008666846]]></ean>
+    <title><![CDATA[Voldt® 3 Pin EV granny charger | 8A - 13A | 2,8kW +APP - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47887753609550</id>
+    <ean><![CDATA[8721082977463]]></ean>
+    <title><![CDATA[Voldt® Portable EV charger commando plug | 1 phase | 8A - 16A | 3.7kW + APP - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>49236855849294</id>
+    <ean><![CDATA[8721082977708]]></ean>
+    <title><![CDATA[3 Pin - type 1 EV portable charger | Adjustable 8A - 13A | 2,8kW - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>50721873166670</id>
+    <ean><![CDATA[8721082977555]]></ean>
+    <title><![CDATA[Adapter Type 2 (charging station) to Type F 230V schuko outlet]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402994626894</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 6mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701231092046</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Renault - Mégane E-Tech]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48021400125774</id>
+    <ean><![CDATA[8721082977975]]></ean>
+    <title><![CDATA[Type 2 Socket for car | 3 phase | 63A]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670937934</id>
+    <ean><![CDATA[8721008666488]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 16A | 11kW charging cable - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875686306126</id>
+    <ean><![CDATA[8721008666310]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 32A | 7.4kW charging cable - 8 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48377983467854</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 16mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48403066421582</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 95mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875742142798</id>
+    <ean><![CDATA[8721008666723]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 32a | 7.4kW charging cable - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47380908573006</id>
+    <ean><![CDATA[8721082977029]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole 16A blue commando socket - 2 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670544718</id>
+    <ean><![CDATA[8721008666525]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 32a | 22kW charging cable - 4 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402994463054</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 6mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875719663950</id>
+    <ean><![CDATA[8721008666150]]></ean>
+    <title><![CDATA[Voldt® Portable charger schuko 230V | 8A - 16A | 3,7kW + APP - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47949479149902</id>
+    <ean><![CDATA[8721082977838]]></ean>
+    <title><![CDATA[Adapter Type 2 (charging cable) to GBT (car)]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402746999118</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 4mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875685617998</id>
+    <ean><![CDATA[8721008666181]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 16A | 3,7kW charging cable - 4 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47476768670030</id>
+    <ean><![CDATA[8721008666822]]></ean>
+    <title><![CDATA[Voldt® Portable EV charger commando plug | 3 phase | 8A - 32A | 22kW + APP - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48489553920334</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 2*4mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402746933582</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 4mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701247836494</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Chery/Omoda/Jaecoo - Omoda E5]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875742175566</id>
+    <ean><![CDATA[8721008666730]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 32a | 7.4kW charging cable - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48557430833486</id>
+    <ean><![CDATA[8721082977609]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 16A | 11kW charging cable - 40 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701228798286</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Smart - Smart #5]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875741978958</id>
+    <ean><![CDATA[8721008666679]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 32a | 7.4kW charging cable - 2 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48464362373454</id>
+    <ean><![CDATA[8721008666945]]></ean>
+    <title><![CDATA[32A 5-pole commando to 16A 3-pole commando Adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48557455475022</id>
+    <ean><![CDATA[8721082977623]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 32a | 22kW charging cable - 40 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48049247584590</id>
+    <ean><![CDATA[8721325963147]]></ean>
+    <title><![CDATA[CCS2 socket for car | 150A DC | 63A AC]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402747031886</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 4mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48049241194830</id>
+    <ean><![CDATA[8721082977913]]></ean>
+    <title><![CDATA[CCS2 socket for car | 150A DC | 32A AC]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48058220609870</id>
+    <ean><![CDATA[8721082977982]]></ean>
+    <title><![CDATA[CCS2 Plug 150A]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48028459073870</id>
+    <ean><![CDATA[8721082977784]]></ean>
+    <title><![CDATA[Type 2 Socket for car | 1 phase | 16A/32A]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875686273358</id>
+    <ean><![CDATA[8721008666303]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 32A | 7.4kW charging cable - 6 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47136992100686</id>
+    <ean><![CDATA[8721008666594]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 16A | 3,7kW charging cable - 2 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402653544782</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 35mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47261982622030</id>
+    <ean><![CDATA[8721008666259]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 16A | 11kW charging cable - 2 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>52890115899726</id>
+    <ean><![CDATA[8721325963000]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole blue 32A commando socket - 2 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47380908736846</id>
+    <ean><![CDATA[8721082977074]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole 16A blue commando socket - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875719139662</id>
+    <ean><![CDATA[8721008666631]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 16A | 3,7kW charging cable - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>52890116129102</id>
+    <ean><![CDATA[8721325963086]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole blue 32A commando socket - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48410911408462</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 120mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402911396174</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 50mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47971777347918</id>
+    <ean><![CDATA[8721325963185]]></ean>
+    <title><![CDATA[CCS2 charging cable with open end | 150A | TPU - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875686371662</id>
+    <ean><![CDATA[8721008666334]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 32A | 7.4kW charging cable - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701229912398</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Xpeng - P7 / P7+]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47971747856718</id>
+    <ean><![CDATA[8721082977869]]></ean>
+    <title><![CDATA[CCS2 charging cable with open end | 125A | TPU - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>50709558559054</id>
+    <ean><![CDATA[8721082977579]]></ean>
+    <title><![CDATA[Voldt® Portable EV charger commando plug | 3 phase | 8A - 32A | 22kW + APP - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47887787819342</id>
+    <ean><![CDATA[8721082977470]]></ean>
+    <title><![CDATA[Voldt® Portable EV charger commando plug | 1 phase | 8A - 32A | 7.4kW + APP - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48403066388814</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 95mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47369398616398</id>
+    <ean><![CDATA[8721082977456]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 32a | 22kW charging cable - 30 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48403021627726</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 70mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48039204454734</id>
+    <ean><![CDATA[8721082977791]]></ean>
+    <title><![CDATA[Type 2 socket for charging station | 3 phase | 16A/32A]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784403255630</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A BYD - Dolphin]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47825561682254</id>
+    <ean><![CDATA[8721008666938]]></ean>
+    <title><![CDATA[16A 5-pole to Type L for Italy adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670872398</id>
+    <ean><![CDATA[8721008666464]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 16A | 11kW charging cable - 8 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>50008291115342</id>
+    <ean><![CDATA[8721082977494]]></ean>
+    <title><![CDATA[Voldt® Portable EV charger commando plug | 3 phase | 8A - 32A | 22kW + APP - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875686404430</id>
+    <ean><![CDATA[8721008666341]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 32A | 7.4kW charging cable - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701235777870</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Hyundai - Ioniq 6]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47825552867662</id>
+    <ean><![CDATA[8721008666891]]></ean>
+    <title><![CDATA[16A 5-pole to Schuko adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875742208334</id>
+    <ean><![CDATA[8721008666747]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 32a | 7.4kW charging cable - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701234565454</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Kia - EV6]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47117621920078</id>
+    <ean><![CDATA[8721082977418]]></ean>
+    <title><![CDATA[Voldt Booster EU Traveller Set - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46890435379534</id>
+    <ean><![CDATA[8721008666099]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 32a | 22kW charging cable - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670610254</id>
+    <ean><![CDATA[8721008666549]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 32a | 22kW charging cable - 8 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784359510350</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A MG - Marvel Cyberster]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402653479246</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 35mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47137021919566</id>
+    <ean><![CDATA[8721008666655]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 16A | 3,7kW charging cable - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784435204430</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Hyundai - Inster]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47588720673102</id>
+    <ean><![CDATA[8721082977104]]></ean>
+    <title><![CDATA[Adapter Type 2 (charging cable) to Type 1 (car)]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875686338894</id>
+    <ean><![CDATA[8721008666082]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 32A | 7.4kW charging cable - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>53019753611598</id>
+    <ean><![CDATA[8721082977500]]></ean>
+    <title><![CDATA[Voldt® Boxx for household mobile charger]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48058308329806</id>
+    <ean><![CDATA[8721082977968]]></ean>
+    <title><![CDATA[DSIEC-ELC Electromagnetic Lock]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701234532686</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Kia - EV5]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47972300521806</id>
+    <ean><![CDATA[8721082977692]]></ean>
+    <title><![CDATA[EV charging adapter CCS1 to CCS2]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47507072483662</id>
+    <ean><![CDATA[8721008666952]]></ean>
+    <title><![CDATA[32A 5-pole commando to 16A 5-pole commando Adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875685880142</id>
+    <ean><![CDATA[8721008666396]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 16A | 3,7kW | coiled charging cable - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784435138894</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Hyundai - Ioniq 9]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48080605020494</id>
+    <ean><![CDATA[8721082977883]]></ean>
+    <title><![CDATA[Cable protector | single channel | for outdoor]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46890435346766</id>
+    <ean><![CDATA[8721008666082]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 32a | 22kW charging cable - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784377893198</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Chery/Omoda/Jaecoo - Jaecoo J7 PHEV]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784403386702</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A BYD - HAN]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47137020281166</id>
+    <ean><![CDATA[8721008666624]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 16A | 3,7kW charging cable - 8 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48488251654478</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 2*6mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701234598222</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Kia - EV9]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47971747889486</id>
+    <ean><![CDATA[8721325963208]]></ean>
+    <title><![CDATA[CCS2 charging cable with open end | 125A | TPU - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875685749070</id>
+    <ean><![CDATA[8721008666228]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 16A | 3,7kW charging cable - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47261982720334</id>
+    <ean><![CDATA[8721008666020]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 16A | 11kW charging cable - 8 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48118202827086</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 10mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48020844970318</id>
+    <ean><![CDATA[8721082977777]]></ean>
+    <title><![CDATA[Type 2 Socket for car | 3 phase | 16A/32A]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47507778404686</id>
+    <ean><![CDATA[8721008666990]]></ean>
+    <title><![CDATA[32A 5-pole commando to Type G for UK Adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48020639514958</id>
+    <ean><![CDATA[8721325963154]]></ean>
+    <title><![CDATA[Type 1 socket 16A]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>52890115932494</id>
+    <ean><![CDATA[8721325963017]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole blue 32A commando socket - 4 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48378043269454</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 25mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47117709902158</id>
+    <ean><![CDATA[8721082977449]]></ean>
+    <title><![CDATA[Voldt Booster Master Traveller Set - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875757412686</id>
+    <ean><![CDATA[8721008666129]]></ean>
+    <title><![CDATA[Voldt® Portable EV charger commando plug | 3 phase | 8A - 16A | 11kW + APP - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>54830813053262</id>
+    <ean><![CDATA[8721082977746]]></ean>
+    <title><![CDATA[Voldt® Type 2 Carbon Fibre charging cable 22kW - 7.5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670806862</id>
+    <ean><![CDATA[8721008666440]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 16A | 11kW charging cable - 4 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48403021562190</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 70mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47825561190734</id>
+    <ean><![CDATA[8721008666921]]></ean>
+    <title><![CDATA[16A 5-pole to Type J for Switzerland adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701229846862</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Xpeng - G9]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48557454197070</id>
+    <ean><![CDATA[8721082977616]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 32a | 22kW charging cable - 35 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47380908769614</id>
+    <ean><![CDATA[8721082977081]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole 16A blue commando socket - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48410911441230</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 120mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784359444814</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A MG - MG ZS EV]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48377983435086</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 16mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670970702</id>
+    <ean><![CDATA[8721008666495]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 16A | 11kW charging cable - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48378043236686</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 25mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>55056995844430</id>
+    <ean><![CDATA[8720299787636]]></ean>
+    <title><![CDATA[Voldt® Sitecharge | Type 2 | 2x 11kW - With 4G/Ethernet]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48403066356046</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 95mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784403288398</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A BYD - Seal]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47229775610190</id>
+    <ean><![CDATA[8721008666839]]></ean>
+    <title><![CDATA[Voldt® 3 Pin EV granny charger | 8A - 13A | 2,8kW +APP - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701231223118</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Renault - Kangoo]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>49357541867854</id>
+    <ean><![CDATA[8721082977487]]></ean>
+    <title><![CDATA[Voldt® 3 Pin EV granny charger | 8A - 13A | 2,8kW +APP - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>52635529052494</id>
+    <ean><![CDATA[8721082977647]]></ean>
+    <title><![CDATA[Plug holder for EV type 2 charging cable]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784359543118</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A MG - MG S5 EV]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47507793969486</id>
+    <ean><![CDATA[8721082977005]]></ean>
+    <title><![CDATA[32A 5-pole commando to Type J Adapter for Switzerland]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875686142286</id>
+    <ean><![CDATA[8721008666389]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 32a | 22kW charging cable - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701229879630</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Xpeng - G6]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47380908605774</id>
+    <ean><![CDATA[8721082977036]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole 16A blue commando socket - 4 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875686437198</id>
+    <ean><![CDATA[8721008666358]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 32A | 7.4kW charging cable - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48489805283662</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 4*6mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402994561358</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 6mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784377827662</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Chery/Omoda/Jaecoo - Omoda eQ7]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701231157582</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Renault - Renault 5]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875685585230</id>
+    <ean><![CDATA[8721008666174]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 16A | 3,7kW charging cable - 2 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701234630990</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Kia - Niro EV (2023+)]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875757379918</id>
+    <ean><![CDATA[8721008666112]]></ean>
+    <title><![CDATA[Voldt® Portable EV charger commando plug | 3 phase | 8A - 16A | 11kW + APP - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47825551032654</id>
+    <ean><![CDATA[8721008666884]]></ean>
+    <title><![CDATA[16A 5-pole to 32A 5-pole commando adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47825551753550</id>
+    <ean><![CDATA[8721008666877]]></ean>
+    <title><![CDATA[16A 5-pole to 32A 3-pole commando adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670839630</id>
+    <ean><![CDATA[8721008666457]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 16A | 11kW charging cable - 6 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670643022</id>
+    <ean><![CDATA[8721008666556]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 32a | 22kW charging cable - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59193827918158</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® Portable OCPP Charger - 7.5 Meter - Pro - Basic+CEE]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>52890116096334</id>
+    <ean><![CDATA[8721325963079]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole blue 32A commando socket - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47971783606606</id>
+    <ean><![CDATA[8721325963161]]></ean>
+    <title><![CDATA[CCS2 charging cable with open end | 200A | TPU - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784377925966</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Chery/Omoda/Jaecoo - Tiggo 8 PHEV]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47261982654798</id>
+    <ean><![CDATA[8721008666006]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 16A | 11kW charging cable - 4 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48058300924238</id>
+    <ean><![CDATA[8721082977951]]></ean>
+    <title><![CDATA[DSIEC-ELB Electromagnetic Lock]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>54830813020494</id>
+    <ean><![CDATA[8721082977739]]></ean>
+    <title><![CDATA[Voldt® Type 2 Carbon Fibre charging cable 22kW - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47476739342670</id>
+    <ean><![CDATA[8721082977364]]></ean>
+    <title><![CDATA[Voldt® Portable charger schuko 230V | 8A - 16A | 3,7kW + APP - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48118202794318</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 10mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875719631182</id>
+    <ean><![CDATA[8721008666143]]></ean>
+    <title><![CDATA[Voldt® Portable charger schuko 230V | 8A - 16A | 3,7kW + APP - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47825557455182</id>
+    <ean><![CDATA[8721008666914]]></ean>
+    <title><![CDATA[16A 5-pole to Type G for UK adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47136967491918</id>
+    <ean><![CDATA[8721008666648]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 16A | 3,7kW charging cable - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>52498315313486</id>
+    <ean><![CDATA[9520123456788]]></ean>
+    <title><![CDATA[Voldt® EV cable hook - Blue]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701231190350</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Renault - Renault 4]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875742536014</id>
+    <ean><![CDATA[8721008666402]]></ean>
+    <title><![CDATA[Type 2  | mode 3 | 16A | 11kW | coiled charging cable - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875686207822</id>
+    <ean><![CDATA[8721008666280]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 32A | 7.4kW charging cable - 2 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48377983369550</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 16mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47136966050126</id>
+    <ean><![CDATA[8721008666617]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 16A | 3,7kW charging cable - 6 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48118202892622</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 10mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701240955214</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A BYD - ATTO3]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701229977934</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Xpeng - G3i]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47102815371598</id>
+    <ean><![CDATA[8721008666785]]></ean>
+    <title><![CDATA[Voldt Mobile CCS2 40kW Fast charger]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875685552462</id>
+    <ean><![CDATA[8721008666136]]></ean>
+    <title><![CDATA[Voldt® Portable EV charger commando plug | 3 phase | 8A - 32A | 22kW + APP - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48058232668494</id>
+    <ean><![CDATA[8721082977821]]></ean>
+    <title><![CDATA[CCS2 Plug 250A]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670511950</id>
+    <ean><![CDATA[8721008666518]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 32a | 22kW charging cable - 2 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670675790</id>
+    <ean><![CDATA[8721008666563]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 32a | 22kW charging cable - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402994430286</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 6mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59193258312014</id>
+    <ean><![CDATA[8721325963260]]></ean>
+    <title><![CDATA[Voldt® Portable OCPP Charger - 7.5 Meter - Basic - Type 2+Schuko]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>49114106003790</id>
+    <ean><![CDATA[8721082977517]]></ean>
+    <title><![CDATA[Type 1 - schuko | Adjustable 8A - 16A | 3,7kW charging cable - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701233189198</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Zeekr - Zeekr X]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670577486</id>
+    <ean><![CDATA[8721008666532]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 32a | 22kW charging cable - 6 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48403021529422</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 70mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784403353934</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A BYD - Sealion 7]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47117720093006</id>
+    <ean><![CDATA[8721325963215]]></ean>
+    <title><![CDATA[Voldt Booster German Traveller Set - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784359477582</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A MG - MG Marvel R]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48049256628558</id>
+    <ean><![CDATA[8721325963130]]></ean>
+    <title><![CDATA[CCS2 socket for car | 200A DC | 64A AC]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47969014186318</id>
+    <ean><![CDATA[8721082977845]]></ean>
+    <title><![CDATA[CCS2 charging cable with open end | 63/80A | TPU - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670774094</id>
+    <ean><![CDATA[8721008666433]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 16A | 11kW charging cable - 2 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48081673027918</id>
+    <ean><![CDATA[8721082977890]]></ean>
+    <title><![CDATA[Cable protector | dual channel | for outdoor]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48039198228814</id>
+    <ean><![CDATA[8721082977807]]></ean>
+    <title><![CDATA[Type 2 socket for charging station | 1 phase | 16A/32A]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47991113351502</id>
+    <ean><![CDATA[8721082977944]]></ean>
+    <title><![CDATA[EV charging adapter CCS2 to GBT]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784403222862</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A BYD - ATTO2]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47380908704078</id>
+    <ean><![CDATA[8721082977067]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole 16A blue commando socket - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47380908802382</id>
+    <ean><![CDATA[8721082977098]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole 16A blue commando socket - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670708558</id>
+    <ean><![CDATA[8721008666570]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 32a | 22kW charging cable - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48489553854798</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 2*4mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47136997114190</id>
+    <ean><![CDATA[8721008666600]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 16A | 3,7kW charging cable - 4 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47825538253134</id>
+    <ean><![CDATA[8721008666860]]></ean>
+    <title><![CDATA[16A 5-pole to 16A 3-pole commando adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47137022771534</id>
+    <ean><![CDATA[8721008666662]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 16A | 3,7kW charging cable - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48122779795790</id>
+    <ean><![CDATA[8721325963109]]></ean>
+    <title><![CDATA[16A 5-pole to Type 3 adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>49033766437198</id>
+    <ean><![CDATA[8721082977937]]></ean>
+    <title><![CDATA[EV charging adapter CCS2 to Chademo]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670741326</id>
+    <ean><![CDATA[8721008666587]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 32a | 22kW charging cable - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875670905166</id>
+    <ean><![CDATA[8721008666471]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 16A | 11kW charging cable - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46784405602638</id>
+    <ean><![CDATA[8721008666808]]></ean>
+    <title><![CDATA[Voldt® Portable EV charger commando plug | 1 phase | 8A - 32A | 7.4kW + APP - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>52890116030798</id>
+    <ean><![CDATA[8721325963048]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole blue 32A commando socket - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402653512014</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 35mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402653610318</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 35mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47507765920078</id>
+    <ean><![CDATA[8721008666976]]></ean>
+    <title><![CDATA[32A 5-pole commando to Schuko Adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784403419470</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A BYD - Tang]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48489805250894</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 4*6mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402911428942</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 50mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47825553719630</id>
+    <ean><![CDATA[8721008666907]]></ean>
+    <title><![CDATA[16A 5-pole to Type 2 adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402911461710</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 50mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875731657038</id>
+    <ean><![CDATA[8721008666419]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 32a | 7.4kW | coiled charging cable - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48489805218126</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 4*6mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48378043105614</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 25mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47117565362510</id>
+    <ean><![CDATA[8721082977425]]></ean>
+    <title><![CDATA[Voldt Booster EV Set - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47971788915022</id>
+    <ean><![CDATA[8721082977999]]></ean>
+    <title><![CDATA[CCS2 charging cable with open end | 250A | TPU - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48489553887566</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 2*4mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47229775675726</id>
+    <ean><![CDATA[8721008666853]]></ean>
+    <title><![CDATA[Voldt® 3 Pin EV granny charger | 8A - 13A | 2,8kW +APP - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875671003470</id>
+    <ean><![CDATA[8721008666501]]></ean>
+    <title><![CDATA[Type 2 - Type 3 | mode 3 | 16A | 11kW charging cable - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48378043171150</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 25mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47971788947790</id>
+    <ean><![CDATA[8721082977876]]></ean>
+    <title><![CDATA[CCS2 charging cable with open end | 250A | TPU - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701228765518</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Smart - Smart #3]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46890435248462</id>
+    <ean><![CDATA[8721008666051]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 32a | 22kW charging cable - 4 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47987126141262</id>
+    <ean><![CDATA[8721082977654]]></ean>
+    <title><![CDATA[EV charging adapter CCS2 to CCS1]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48410911473998</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 120mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701234499918</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Kia - EV3]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48058205372750</id>
+    <ean><![CDATA[8721325963116]]></ean>
+    <title><![CDATA[CCS2 Plug 125A]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46890435215694</id>
+    <ean><![CDATA[8721008666365]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 32a | 22kW charging cable - 2 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47261982753102</id>
+    <ean><![CDATA[8721008666037]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 16A | 11kW charging cable - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48058222772558</id>
+    <ean><![CDATA[8721082977814]]></ean>
+    <title><![CDATA[CCS2 Plug 200A]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>49114106036558</id>
+    <ean><![CDATA[8721082977524]]></ean>
+    <title><![CDATA[Type 1 - schuko | Adjustable 8A - 16A | 3,7kW charging cable - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48488251588942</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 2*6mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47101944201550</id>
+    <ean><![CDATA[8721008666792]]></ean>
+    <title><![CDATA[Voldt® Portable EV charger commando plug | 1 phase | 8A - 16A | 3.7kW + APP - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875742011726</id>
+    <ean><![CDATA[8721008666686]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 32a | 7.4kW charging cable - 4 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875757347150</id>
+    <ean><![CDATA[8721008666105]]></ean>
+    <title><![CDATA[Voldt® Portable EV charger commando plug | 3 phase | 8A - 16A | 11kW + APP - 5 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701235745102</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Hyundai - Ioniq 5]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48410911539534</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 120mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>55105640399182</id>
+    <ean><![CDATA[8720299787643]]></ean>
+    <title><![CDATA[3 Pin - type 1 EV portable charger | Adjustable 8A - 13A | 2,8kW - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>54955869372750</id>
+    <ean><![CDATA[8720299787629]]></ean>
+    <title><![CDATA[Voldt® Sitecharge | Type 2 | 2x 22kW - With 4G/Ethernet]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875686240590</id>
+    <ean><![CDATA[8721008666297]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 32A | 7.4kW charging cable - 4 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47504890397006</id>
+    <ean><![CDATA[8721008666969]]></ean>
+    <title><![CDATA[32A 5-pole commando to 32A 3-pole commando Adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47369445736782</id>
+    <ean><![CDATA[8721082977142]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 16A | 11kW charging cable - 30 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46890435313998</id>
+    <ean><![CDATA[8721008666075]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 32a | 22kW charging cable - 8 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47380908671310</id>
+    <ean><![CDATA[8721082977050]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole 16A blue commando socket - 8 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47261982687566</id>
+    <ean><![CDATA[8721008666013]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 16A | 11kW charging cable - 6 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>49236855882062</id>
+    <ean><![CDATA[8721082977715]]></ean>
+    <title><![CDATA[3 Pin - type 1 EV portable charger | Adjustable 8A - 13A | 2,8kW - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48122873250126</id>
+    <ean><![CDATA[8721325963093]]></ean>
+    <title><![CDATA[32A 5-pole commando to Type 3 adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47238457786702</id>
+    <ean><![CDATA[8721082977340]]></ean>
+    <title><![CDATA[Type 2  | mode 3 | 16A | 11kW | coiled charging cable - 8 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48403021594958</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 70mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48489805185358</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 4*6mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701233123662</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Zeekr - Zeekr 001]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>55122612584782</id>
+    <ean><![CDATA[8720299787650]]></ean>
+    <title><![CDATA[Plug holder for EV type 1 charging cable]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701233221966</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Zeekr - Zeekr 009]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48488251621710</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 2*6mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47969014219086</id>
+    <ean><![CDATA[8721082977852]]></ean>
+    <title><![CDATA[CCS2 charging cable with open end | 63/80A | TPU - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48118202859854</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 10mm² - 50 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47971777380686</id>
+    <ean><![CDATA[8721325963192]]></ean>
+    <title><![CDATA[CCS2 charging cable with open end | 150A | TPU - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47507800129870</id>
+    <ean><![CDATA[8721082977012]]></ean>
+    <title><![CDATA[32A 5-pole commando to Type L Adapter for Italy]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48049252532558</id>
+    <ean><![CDATA[8721082977906]]></ean>
+    <title><![CDATA[CCS2 socket for car | 200A DC | 32A AC]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47261982785870</id>
+    <ean><![CDATA[8721008666044]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 16A | 11kW charging cable - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875685814606</id>
+    <ean><![CDATA[8721008666242]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 16A | 3,7kW charging cable - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875685650766</id>
+    <ean><![CDATA[8721008666198]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 16A | 3,7kW charging cable - 6 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784359412046</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A MG - MG5]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47261982851406</id>
+    <ean><![CDATA[8721008666273]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 16A | 11kW charging cable - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701229945166</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Xpeng - X9]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47380908638542</id>
+    <ean><![CDATA[8721082977043]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole 16A blue commando socket - 6 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>49236855914830</id>
+    <ean><![CDATA[8721082977722]]></ean>
+    <title><![CDATA[3 Pin - type 1 EV portable charger | Adjustable 8A - 13A | 2,8kW - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48557421265230</id>
+    <ean><![CDATA[8721082977593]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 16A | 11kW charging cable - 35 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875742110030</id>
+    <ean><![CDATA[8721008666716]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 32a | 7.4kW charging cable - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402911494478</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 50mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>54830813086030</id>
+    <ean><![CDATA[8721082977753]]></ean>
+    <title><![CDATA[Voldt® Type 2 Carbon Fibre charging cable 22kW - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>49114106102094</id>
+    <ean><![CDATA[8721082977548]]></ean>
+    <title><![CDATA[Type 1 - schuko | Adjustable 8A - 16A | 3,7kW charging cable - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784435171662</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Hyundai - Kona Electric]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47507098370382</id>
+    <ean><![CDATA[8721008666983]]></ean>
+    <title><![CDATA[32A 5-pole commando to Type 2 Adapter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47997909401934</id>
+    <ean><![CDATA[8721082977920]]></ean>
+    <title><![CDATA[EV charging adapter GBT to CCS2]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47971783639374</id>
+    <ean><![CDATA[8721325963178]]></ean>
+    <title><![CDATA[CCS2 charging cable with open end | 200A | TPU - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875742044494</id>
+    <ean><![CDATA[8721008666693]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 32a | 7.4kW charging cable - 6 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>49807525773646</id>
+    <ean><![CDATA[8721082977685]]></ean>
+    <title><![CDATA[Adapter NACS to Type 2 - 11kW]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>47261982818638</id>
+    <ean><![CDATA[8721008666266]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 16A | 11kW charging cable - 20 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784403321166</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A BYD - Sealion 6]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48053392310606</id>
+    <ean><![CDATA[8721082977630]]></ean>
+    <title><![CDATA[CCS2 Plug holder]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>52890115998030</id>
+    <ean><![CDATA[8721325963031]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole blue 32A commando socket - 8 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875719696718</id>
+    <ean><![CDATA[8721008666167]]></ean>
+    <title><![CDATA[Voldt® Portable charger schuko 230V | 8A - 16A | 3,7kW + APP - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48403066454350</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 95mm² - 100 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875742077262</id>
+    <ean><![CDATA[8721008666709]]></ean>
+    <title><![CDATA[Type 1 - type 2 | 1 phase | 32a | 7.4kW charging cable - 8 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48402746966350</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 4mm² - 25 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701245575502</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A MG - MG4]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48377983336782</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[High voltage cable | fhlr2gcb2g | 16mm² - 10 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701233156430</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Zeekr - Zeekr 007]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46875685683534</id>
+    <ean><![CDATA[8721008666204]]></ean>
+    <title><![CDATA[Type 2 | 1 phase | 16A | 3,7kW charging cable - 8 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701228732750</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Smart - Smart #1]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>54830813118798</id>
+    <ean><![CDATA[8721082977760]]></ean>
+    <title><![CDATA[Voldt® Type 2 Carbon Fibre charging cable 22kW - 15 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59784377860430</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Chery/Omoda/Jaecoo - iCar 03]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>59701234663758</id>
+    <ean><![CDATA[]]></ean>
+    <title><![CDATA[Voldt® V2L Adapter Type 2 16A Kia - Soul]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>52890115965262</id>
+    <ean><![CDATA[8721325963024]]></ean>
+    <title><![CDATA[Adapter cable type 2 (charging station side) to 3-pole blue 32A commando socket - 6 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>48058192036174</id>
+    <ean><![CDATA[8721325963123]]></ean>
+    <title><![CDATA[CCS2 Plug 63/80A]]></title>
+    <description><![CDATA[]]></description>
+  </product>
+  <product>
+    <id>46890435281230</id>
+    <ean><![CDATA[8721008666068]]></ean>
+    <title><![CDATA[Type 2 | mode 3 | 32a | 22kW charging cable - 6 Meter]]></title>
+    <description><![CDATA[]]></description>
+  </product>
 </products>

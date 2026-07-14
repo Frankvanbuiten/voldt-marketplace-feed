@@ -169,15 +169,22 @@ def main():
     status_value = env("STATUS_VALUE", "")
 
     # Which Airtable fields (by ID) map to which XML tags.
+    #   fldqFwtF8Ly0P0pnP = Kaufland title
+    #   fld9aUho6YLIYuWCD = Kaufland description (rich text)
     default_map = {
         "fldmjoKFSUZ04vBNq": "ean",
         "flddPikssfX9HOByh": "title",
         "fldGacObhaxghnvbF": "description",
+        "fldqFwtF8Ly0P0pnP": "kaufland_title",
+        "fld9aUho6YLIYuWCD": "kaufland_description",
     }
     field_map = json.loads(env("FIELD_MAP", json.dumps(default_map)))
 
+    # Rich (HTML) fields: both the Shopify and Kaufland descriptions.
     rich_fields = set(
-        x.strip() for x in env("RICH_FIELDS", "fldGacObhaxghnvbF").split(",") if x.strip()
+        x.strip()
+        for x in env("RICH_FIELDS", "fldGacObhaxghnvbF,fld9aUho6YLIYuWCD").split(",")
+        if x.strip()
     )
 
     records = fetch_records(token, base_id, table)

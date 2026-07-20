@@ -20,6 +20,7 @@ Configuration is via environment variables (see README.md):
 
 import json
 import os
+import re
 import sys
 import time
 import urllib.parse
@@ -48,12 +49,39 @@ def env(name, default=None, required=False):
     return val
 
 
+_LIST_RE = re.compile(r'^\s*([-*+]|\d+[.)])\s+')
+
+
+def normalize_markdown(text):
+    """Make Airtable rich-text Markdown parseable as real lists.
+
+    Airtable often exports a bullet/numbered list WITHOUT a blank line before
+    it (e.g. "Voordelen:\\n- a\\n- b"), which Markdown parsers do not treat as
+    a list. It may also use the unicode bullet "•". This:
+      - converts unicode bullets (• ▪ ‣ ·) to Markdown "- "
+      - inserts a blank line before the first item of a list block
+    so lists become proper <ul>/<ol> in the HTML.
+    """
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    lines = [re.sub(r'^(\s*)[•▪‣·]\s+', r'\1- ', ln) for ln in text.split("\n")]
+    out = []
+    for ln in lines:
+        if _LIST_RE.match(ln) and out:
+            prev = out[-1]
+            if prev.strip() != "" and not _LIST_RE.match(prev):
+                out.append("")  # blank line before the first list item
+        out.append(ln)
+    return "\n".join(out)
+
+
 def md_to_html(text):
     """Convert Airtable rich-text (Markdown) to HTML. Falls back to <br>."""
     if not text:
         return ""
     if _HAS_MD:
-        return markdown.markdown(text, extensions=["extra", "sane_lists"])
+        return markdown.markdown(
+            normalize_markdown(text), extensions=["extra", "sane_lists"]
+        )
     # Minimal fallback: preserve paragraphs/line breaks.
     paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
     return "".join(

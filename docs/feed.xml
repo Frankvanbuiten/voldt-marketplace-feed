@@ -3417,21 +3417,22 @@ Dieser Adapter ist auf die V2L-Funktion des Kia EV6 abgestimmt. Auch erhältlich
     <ean>8721325963475</ean>
     <title>Voldt® Boxx for household mobile charger | Type 2 EV charger 5m + Boxx</title>
     <description></description>
-    <kaufland_title>Voldt® Set: Mobiles Typ-2-Ladegerät 5 m + Boxx Wandgehäuse | Schuko 230 V | Mode 2 | Metallfront | inkl. Schrauben</kaufland_title>
+    <kaufland_title>Voldt® Set | Mobiles Typ-2-Ladegerät 5 m + Boxx Wandgehäuse | Schuko 230 V | Mode 2 | 3,7 kW | 16A | Metallfront | inkl. Schrauben</kaufland_title>
     <kaufland_description><![CDATA[<p><strong>Produktbeschreibung &amp; Produktdaten</strong></p>
 <p><strong>Mobiles Laden zu Hause, ordentlich verstaut: das Voldt® Boxx Set</strong></p>
 <p>Das Voldt® Boxx Set vereint ein mobiles Typ-2-Ladegerät mit der wandmontierten Voldt® Boxx. Sie laden Ihr Elektro- oder Hybridfahrzeug flexibel an der Haushaltssteckdose und bewahren das Ladegerät zwischen den Ladevorgängen geschützt und aufgeräumt auf. Voldt entwickelt und produziert seine Ladeprodukte in Europa, auf Basis von über hundert Jahren automobiler Kompetenz.</p>
 <p><strong>Mobiles Typ-2-Ladegerät mit 5 m Kabel</strong></p>
-<p>Das mitgelieferte Ladegerät verbindet Ihr Fahrzeug über einen genormten Typ-2-Stecker (IEC 62196-2) mit der gewöhnlichen Schuko-Haushaltssteckdose (230 V). Mit 5 m Kabellänge erreichen Sie den Ladeanschluss bequem, ohne exakt einparken zu müssen. Die integrierte Steuereinheit (Mode 2) überwacht den Ladevorgang. So laden Sie zu Hause, bei Freunden oder unterwegs, ganz ohne fest installierte Wallbox.</p>
+<p>Das mitgelieferte Ladegerät verbindet Ihr Fahrzeug über einen genormten Typ-2-Stecker (IEC 62196-2) mit der gewöhnlichen Schuko-Haushaltssteckdose (230 V). Mit bis zu 3,7 kW (230 V, 16 A) lädt es einphasig, und mit 5 m Kabellänge erreichen Sie den Ladeanschluss bequem, ohne exakt einparken zu müssen. Die integrierte Steuereinheit (Mode 2) überwacht den Ladevorgang. So laden Sie zu Hause, bei Freunden oder unterwegs, ganz ohne fest installierte Wallbox.</p>
 <p><strong>Sicher verstaut mit der Voldt® Boxx</strong></p>
-<p>Damit das Ladegerät nach dem Laden nicht lose herumliegt, staubig wird oder das Kabel unnötig geknickt wird, bietet die Voldt® Boxx einen festen Platz an der Wand. Das Gehäuse aus recyceltem Kunststoff mit einer Frontplatte aus Metall verbindet Robustheit mit einer wertigen, dezenten Optik. Ein magnetischer Verschluss hält die Tür ohne Riegel oder Schlüssel zuverlässig geschlossen.</p>
+<p>Damit das Ladegerät nach dem Laden nicht lose herumliegt, staubig wird oder das Kabel unnötig geknickt wird, bietet die Voldt® Boxx einen festen Platz an der Wand. Das Gehäuse aus recyceltem Kunststoff mit einer Frontplatte aus Metall verbindet Robustheit mit einer wertigen, dezenten Optik. Ein magnetischer Verschluss hält die Tür ohne Riegel oder Schlüssel zuverlässig geschlossen. Die Boxx wird mit Montageschrauben geliefert und lässt sich an jeder Wand, jedem Pfosten oder Garagenständer befestigen.</p>
 <p><strong>Auf einen Blick</strong></p>
 <ul>
 <li>Marke Voldt®: in Europa entwickelt und gefertigt</li>
 <li>Set: mobiles Typ-2-Ladegerät + Voldt® Boxx Wandgehäuse</li>
 <li>Fahrzeuganschluss: Typ 2 (IEC 62196-2)</li>
+<li>Ladeleistung: bis 3,7 kW (230 V, 16 A), 1-phasig</li>
 <li>Netzanschluss: Schuko 230 V, Mode 2</li>
-<li>Kabellänge: 5 m</li>
+<li>Kabellänge Ladegerät: 5 m</li>
 <li>Gehäuse: recycelter Kunststoff mit Metallfront</li>
 <li>Verschluss: magnetisch, ohne Riegel oder Schlüssel</li>
 <li>Montage: Wandmontage, Schrauben im Lieferumfang</li>
@@ -3442,6 +3443,9 @@ Dieser Adapter ist auf die V2L-Funktion des Kia EV6 abgestimmt. Auch erhältlich
 <li>Hersteller / Marke: Voldt®</li>
 <li>Produkttyp: Set aus mobilem Ladegerät und Wandgehäuse</li>
 <li>Fahrzeugseite: Typ 2 (IEC 62196-2)</li>
+<li>Phasen: 1-phasig</li>
+<li>Max. Ladeleistung: 3,7 kW</li>
+<li>Max. Ladestrom: 16 A</li>
 <li>Netzstecker: Schuko (Typ F), 230 V</li>
 <li>Lademodus: Mode 2</li>
 <li>Kabellänge Ladegerät: 5 m</li>
@@ -8045,6 +8049,55 @@ Kompatibel mit allen Elektrofahrzeugen mit CCS2-Ladeanschluss (Combo 2). Geeigne
 <p><strong>Lieferumfang</strong>
 1x Voldt® Typ-2-auf-Typ-3-Ladekabel 11 kW (2 m)
 1x Aufbewahrungstasche</p>]]></kaufland_description>
+  </product>
+  <product>
+    <id>60244449329486</id>
+    <ean>8721325963482</ean>
+    <title>Voldt® Boxx for household mobile charger | Type 1 Schuko charger 5m + Boxx</title>
+    <description></description>
+    <kaufland_title>Voldt® Set | Mobiles Typ-1-Ladegerät 5 m + Boxx Wandgehäuse | Schuko 230 V | Mode 2 | 3,7 kW | 16A | Metallfront | inkl. Schrauben</kaufland_title>
+    <kaufland_description><![CDATA[<p><strong>Produktbeschreibung &amp; Produktdaten</strong></p>
+<p><strong>Mobiles Laden zu Hause, ordentlich verstaut: das Voldt® Boxx Set</strong></p>
+<p>Das Voldt® Boxx Set vereint ein mobiles Typ-1-Ladegerät mit der wandmontierten Voldt® Boxx. Sie laden Ihr Elektro- oder Hybridfahrzeug mit Typ-1-Anschluss flexibel an der Haushaltssteckdose und bewahren das Ladegerät zwischen den Ladevorgängen geschützt und aufgeräumt auf. Voldt entwickelt und produziert seine Ladeprodukte in Europa, auf Basis von über hundert Jahren automobiler Kompetenz.</p>
+<p><strong>Mobiles Typ-1-Ladegerät mit 5 m Kabel</strong></p>
+<p>Das mitgelieferte Ladegerät verbindet Ihr Fahrzeug über einen Typ-1-Stecker (SAE J1772) mit der gewöhnlichen Schuko-Haushaltssteckdose (230 V). Der Typ-1-Anschluss ist die passende Wahl für ältere und asiatische Elektro- und Hybridfahrzeuge, die einphasig laden. Mit bis zu 3,7 kW (230 V, 16 A) und 5 m Kabellänge erreichen Sie den Ladeanschluss bequem, ohne exakt einparken zu müssen. Die integrierte Steuereinheit (Mode 2) überwacht den Ladevorgang. So laden Sie zu Hause, bei Freunden oder unterwegs, ganz ohne fest installierte Wallbox.</p>
+<p><strong>Sicher verstaut mit der Voldt® Boxx</strong></p>
+<p>Damit das Ladegerät nach dem Laden nicht lose herumliegt, staubig wird oder das Kabel unnötig geknickt wird, bietet die Voldt® Boxx einen festen Platz an der Wand. Das Gehäuse aus recyceltem Kunststoff mit einer Frontplatte aus Metall verbindet Robustheit mit einer wertigen, dezenten Optik. Ein magnetischer Verschluss hält die Tür ohne Riegel oder Schlüssel zuverlässig geschlossen. Die Boxx wird mit Montageschrauben geliefert und lässt sich an jeder Wand, jedem Pfosten oder Garagenständer befestigen.</p>
+<p><strong>Auf einen Blick</strong></p>
+<ul>
+<li>Marke Voldt®: in Europa entwickelt und gefertigt</li>
+<li>Set: mobiles Typ-1-Ladegerät + Voldt® Boxx Wandgehäuse</li>
+<li>Fahrzeuganschluss: Typ 1 (SAE J1772), 1-phasig</li>
+<li>Ladeleistung: bis 3,7 kW (230 V, 16 A)</li>
+<li>Netzanschluss: Schuko 230 V, Mode 2</li>
+<li>Kabellänge Ladegerät: 5 m</li>
+<li>Gehäuse: recycelter Kunststoff mit Metallfront</li>
+<li>Verschluss: magnetisch, ohne Riegel oder Schlüssel</li>
+<li>Montage: Wandmontage, Schrauben im Lieferumfang</li>
+<li>Boxx-Außenmaße: 457 × 210 × 131 mm</li>
+</ul>
+<p><strong>Technische Daten</strong></p>
+<ul>
+<li>Hersteller / Marke: Voldt®</li>
+<li>Produkttyp: Set aus mobilem Ladegerät und Wandgehäuse</li>
+<li>Fahrzeugseite: Typ 1 (SAE J1772)</li>
+<li>Phasen: 1-phasig</li>
+<li>Max. Ladeleistung: 3,7 kW</li>
+<li>Max. Ladestrom: 16 A</li>
+<li>Netzstecker: Schuko (Typ F), 230 V</li>
+<li>Lademodus: Mode 2</li>
+<li>Kabellänge Ladegerät: 5 m</li>
+<li>Material Boxx-Gehäuse: recycelter Kunststoff</li>
+<li>Material Frontplatte: Metall</li>
+<li>Verschlussmechanismus: Magnete</li>
+<li>Boxx-Außenmaße (H × B × T): 457 × 210 × 131 mm</li>
+<li>Montage: Wandmontage (Schrauben enthalten)</li>
+<li>EAN: 8721325963482</li>
+</ul>
+<p><strong>Lieferumfang</strong>
+1x Voldt® mobiles Typ-1-Ladegerät (5 m)
+1x Voldt® Boxx
+1x Schraubenset</p>]]></kaufland_description>
   </product>
   <product>
     <id>48081673027918</id>

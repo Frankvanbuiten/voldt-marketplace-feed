@@ -199,23 +199,62 @@ def main():
     # Which Airtable fields (by ID) map to which XML tags.
     #   fldqFwtF8Ly0P0pnP = Kaufland title
     #   fld9aUho6YLIYuWCD = Kaufland description (rich text)
+    # The two "__cdiscount_*__" keys are synthetic: they are filled in below by
+    # joining a separate table (see cDiscount join), not read from this table.
     default_map = {
         "fldmjoKFSUZ04vBNq": "ean",
         "flddPikssfX9HOByh": "title",
         "fldGacObhaxghnvbF": "description",
         "fldqFwtF8Ly0P0pnP": "kaufland_title",
         "fld9aUho6YLIYuWCD": "kaufland_description",
+        "__cdiscount_title__": "cdiscount_title",
+        "__cdiscount_description__": "cdiscount_description",
     }
     field_map = json.loads(env("FIELD_MAP", json.dumps(default_map)))
 
-    # Rich (HTML) fields: both the Shopify and Kaufland descriptions.
+    # Rich (HTML) fields: Shopify, Kaufland and Cdiscount descriptions.
     rich_fields = set(
         x.strip()
-        for x in env("RICH_FIELDS", "fldGacObhaxghnvbF,fld9aUho6YLIYuWCD").split(",")
+        for x in env(
+            "RICH_FIELDS",
+            "fldGacObhaxghnvbF,fld9aUho6YLIYuWCD,__cdiscount_description__",
+        ).split(",")
         if x.strip()
     )
 
     records = fetch_records(token, base_id, table)
+
+    # --- Cdiscount join -----------------------------------------------------
+    # Cdiscount title/description live in a SEPARATE table ("cDiscount products"),
+    # matched to each variant on the "Product title Shopify" text.
+    #   cd table          = tblcymF9sjcRb0p9B
+    #   cd match key       = fldQa9Xuun7VCRAWg (Product title Shopify)
+    #   cd title           = fldpMb6xWBtqmvXSi (cDiscount title (FR))
+    #   cd description     = fldviWIilHV0l8leW (cDiscount Description (FR))
+    #   main match field   = flddPikssfX9HOByh (Product title Shopify)
+    cd_table = env("CDISCOUNT_TABLE", "tblcymF9sjcRb0p9B")
+    cd_key = env("CDISCOUNT_KEY_FIELD", "fldQa9Xuun7VCRAWg")
+    cd_title = env("CDISCOUNT_TITLE_FIELD", "fldpMb6xWBtqmvXSi")
+    cd_desc = env("CDISCOUNT_DESC_FIELD", "fldviWIilHV0l8leW")
+    main_join = env("CDISCOUNT_MATCH_FIELD", "flddPikssfX9HOByh")
+
+    cd_map = {}
+    if cd_table:
+        for r in fetch_records(token, base_id, cd_table):
+            ff = r.get("fields", {})
+            key = str(ff.get(cd_key, "")).strip()
+            if key:
+                cd_map[key] = (ff.get(cd_title, ""), ff.get(cd_desc, ""))
+        matched = 0
+        for rec in records:
+            ff = rec.setdefault("fields", {})
+            t, d = cd_map.get(str(ff.get(main_join, "")).strip(), ("", ""))
+            ff["__cdiscount_title__"] = t
+            ff["__cdiscount_description__"] = d
+            if t or d:
+                matched += 1
+        print(f"Cdiscount: {len(cd_map)} rows loaded, joined onto {matched} records")
+
     xml, exported = build_xml(
         records, field_map, rich_fields, id_field, status_field, status_value
     )

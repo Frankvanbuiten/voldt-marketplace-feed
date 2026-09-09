@@ -207,17 +207,20 @@ def main():
         "fldGacObhaxghnvbF": "description",
         "fldqFwtF8Ly0P0pnP": "kaufland_title",
         "fld9aUho6YLIYuWCD": "kaufland_description",
+        "fldSr3TsBkQBcJSNe": "kaufland_title_pl",
+        "fldul0aRAHgW0yhRp": "kaufland_description_pl",
         "__cdiscount_title__": "cdiscount_title",
         "__cdiscount_description__": "cdiscount_description",
     }
     field_map = json.loads(env("FIELD_MAP", json.dumps(default_map)))
 
-    # Rich (HTML) fields: Shopify, Kaufland and Cdiscount descriptions.
+    # Rich (HTML) fields: Shopify, Kaufland (DE + PL) and Cdiscount descriptions.
     rich_fields = set(
         x.strip()
         for x in env(
             "RICH_FIELDS",
-            "fldGacObhaxghnvbF,fld9aUho6YLIYuWCD,__cdiscount_description__",
+            "fldGacObhaxghnvbF,fld9aUho6YLIYuWCD,fldul0aRAHgW0yhRp,"
+            "__cdiscount_description__",
         ).split(",")
         if x.strip()
     )

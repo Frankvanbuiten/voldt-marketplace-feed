@@ -136,7 +136,7 @@ def render_tag(tag, value, use_cdata):
     return f"    <{tag}>{escape(text)}</{tag}>"
 
 
-def build_xml(records, field_map, rich_fields, id_field,
+def build_xml(records, field_map, rich_fields, html_fields, id_field,
               status_field, status_value):
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', "<products>"]
     exported = 0
@@ -158,11 +158,12 @@ def build_xml(records, field_map, rich_fields, id_field,
             raw = f.get(src_field, "")
             if isinstance(raw, list):
                 raw = ", ".join(str(x) for x in raw)
-            is_rich = src_field in rich_fields
+            is_rich = src_field in rich_fields   # Markdown -> HTML
+            is_html = src_field in html_fields   # already HTML, keep as-is
             if is_rich:
                 raw = md_to_html(raw)
-            # CDATA only for non-empty rich (HTML) content; plain text otherwise.
-            lines.append(render_tag(xml_tag, raw, use_cdata=is_rich))
+            # CDATA for HTML content (rich or already-HTML); plain text otherwise.
+            lines.append(render_tag(xml_tag, raw, use_cdata=is_rich or is_html))
 
         lines.append("  </product>")
         exported += 1
@@ -209,12 +210,14 @@ def main():
         "fld9aUho6YLIYuWCD": "kaufland_description",
         "fldSr3TsBkQBcJSNe": "kaufland_title_pl",
         "fldul0aRAHgW0yhRp": "kaufland_description_pl",
+        "fld3H1Owa8X8vXuUb": "title_nl",
+        "fldEqFLWovYTtcKVz": "description_nl",
         "__cdiscount_title__": "cdiscount_title",
         "__cdiscount_description__": "cdiscount_description",
     }
     field_map = json.loads(env("FIELD_MAP", json.dumps(default_map)))
 
-    # Rich (HTML) fields: Shopify, Kaufland (DE + PL) and Cdiscount descriptions.
+    # Rich (Markdown -> HTML) fields: Shopify, Kaufland (DE + PL) and Cdiscount.
     rich_fields = set(
         x.strip()
         for x in env(
@@ -222,6 +225,13 @@ def main():
             "fldGacObhaxghnvbF,fld9aUho6YLIYuWCD,fldul0aRAHgW0yhRp,"
             "__cdiscount_description__",
         ).split(",")
+        if x.strip()
+    )
+
+    # Already-HTML fields: CDATA-wrapped as-is, NOT run through the Markdown
+    # converter. Description NL comes from Shopify metafields already as HTML.
+    html_fields = set(
+        x.strip() for x in env("HTML_FIELDS", "fldEqFLWovYTtcKVz").split(",")
         if x.strip()
     )
 
@@ -259,7 +269,8 @@ def main():
         print(f"Cdiscount: {len(cd_map)} rows loaded, joined onto {matched} records")
 
     xml, exported = build_xml(
-        records, field_map, rich_fields, id_field, status_field, status_value
+        records, field_map, rich_fields, html_fields, id_field,
+        status_field, status_value
     )
 
     os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)

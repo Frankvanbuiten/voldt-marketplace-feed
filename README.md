@@ -118,6 +118,32 @@ The script reads optional env vars:
 To add a second marketplace later, copy the table (e.g. `Bol NL`), add a second
 job/workflow with `AIRTABLE_TABLE=Bol NL` and `FEED_OUTPUT=docs/bol-nl.xml`.
 
+## FAQ blocks
+
+Each product's linked FAQs (Airtable base `appPn95FPfn3fzi4n`, table **FAQ** =
+`tbl170la2gBX32opn`, linked from Marketplace_Content's **FAQ** field =
+`fldWSH8N2abTucrro`) are emitted as repeated `<question_and_answer>` blocks
+inside `<product>`, one per (linked FAQ × locale with content):
+
+```xml
+<question_and_answer>
+  <locale>de</locale>
+  <question>Kann man ein Ladekabel verlängern?</question>
+  <answer><![CDATA[<p>Nein, ...</p>]]></answer>
+</question_and_answer>
+```
+
+All 12 published shop locales are covered (`en` plus the 11 translations: da,
+de, es, fi, fr, it, nb, nl, pl, pt-PT, sv). A block is only emitted when both
+the question and answer are non-empty for that locale — FAQs missing a
+translation just produce fewer blocks, not empty ones. In Channable, configure
+this as a loop/list field on `question_and_answer`, map `question`/`answer` as
+its sub-fields, and filter on `locale` per destination market (e.g. `locale =
+de` for Kaufland DE, `locale = pl` for Kaufland PL).
+
+Override the table/field IDs with `FAQ_TABLE` / `FAQ_LINK_FIELD` env vars if
+the schema changes; set `FAQ_TABLE=""` to disable FAQ blocks entirely.
+
 ## Run locally (optional test)
 
 ```bash

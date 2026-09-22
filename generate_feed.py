@@ -120,6 +120,66 @@ def fetch_records(token, base_id, table):
     return records
 
 
+# FAQ table (Airtable base appPn95FPfn3fzi4n, table "FAQ" = tbl170la2gBX32opn).
+# One row per Shopify FAQ metaobject, with Question/Answer pairs per published
+# shop locale (field IDs, stable across renames). "en" is the shop's primary
+# locale (also the live voldt.co.uk storefront language), the rest are the 11
+# translated locales.
+FAQ_LOCALE_FIELDS = [
+    ("en", "fldcEWBfDfi77noHr", "fldVdfVRFKBnwIYi5"),
+    ("da", "fld4xlFBnAsoDaRNg", "fldSM9rSBru7ihdhE"),
+    ("de", "fldWqPHiRUCQnqAiZ", "fldPcgyKoTCl4wFtj"),
+    ("es", "fldswzXA84Ecqc5pO", "fldjQZamQiwv7Zuaq"),
+    ("fi", "fld4rZFFuZJNV5HDW", "fldem2NXuWBobnAty"),
+    ("fr", "flddMTYCBEKkijmDT", "fldXSrwN3WBQkclKG"),
+    ("it", "fld1mGnfdrsqs8grH", "fldcBHW6QeROtowIU"),
+    ("nb", "fldjrvo3FXqNYPn6f", "fldjCQ4ZM8i0u4FRa"),
+    ("nl", "fldCKJP84sbZJEjKG", "fldA0xTjEU1LxUbum"),
+    ("pl", "fldD9DwJeZ0aSa1qC", "fldlQxmYqrMXQqIHA"),
+    ("pt-PT", "fldwQRjDxNHJnZsxF", "fldP3Ls9wORygstAf"),
+    ("sv", "fldCdN5j5Cmt2DHlX", "fldpp8ulV7X3lRL6y"),
+]
+
+
+def build_faq_map(token, base_id, faq_table):
+    """Fetch the FAQ table and index it by record id.
+
+    Returns {faq_record_id: [(locale, question, answer_html), ...]}, only
+    including locale entries where both question and answer are non-empty
+    (skips FAQs that are missing a translation for a given locale).
+    """
+    faq_map = {}
+    for r in fetch_records(token, base_id, faq_table):
+        ff = r.get("fields", {})
+        pairs = []
+        for locale, q_field, a_field in FAQ_LOCALE_FIELDS:
+            q = str(ff.get(q_field, "") or "").strip()
+            a_raw = str(ff.get(a_field, "") or "").strip()
+            if not q or not a_raw:
+                continue
+            pairs.append((locale, q, md_to_html(a_raw)))
+        faq_map[r["id"]] = pairs
+    return faq_map
+
+
+def render_faq_blocks(faq_ids, faq_map):
+    """Render repeated <question_and_answer> blocks for one product.
+
+    One block per (linked FAQ x locale with content), in FAQ link order then
+    locale order. Each block carries its own <locale> so Channable's per-market
+    Kaufland mapping (DE / PL / ...) can filter on it.
+    """
+    lines = []
+    for faq_id in faq_ids:
+        for locale, question, answer_html in faq_map.get(faq_id, []):
+            lines.append("    <question_and_answer>")
+            lines.append(f"      <locale>{escape(locale)}</locale>")
+            lines.append("      " + render_tag("question", question, use_cdata=False).strip())
+            lines.append("      " + render_tag("answer", answer_html, use_cdata=True).strip())
+            lines.append("    </question_and_answer>")
+    return lines
+
+
 def render_tag(tag, value, use_cdata):
     """Render one XML element.
 
@@ -137,7 +197,7 @@ def render_tag(tag, value, use_cdata):
 
 
 def build_xml(records, field_map, rich_fields, html_fields, id_field,
-              status_field, status_value):
+              status_field, status_value, faq_map=None, faq_link_field=None):
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', "<products>"]
     exported = 0
     for rec in records:
@@ -164,6 +224,12 @@ def build_xml(records, field_map, rich_fields, html_fields, id_field,
                 raw = md_to_html(raw)
             # CDATA for HTML content (rich or already-HTML); plain text otherwise.
             lines.append(render_tag(xml_tag, raw, use_cdata=is_rich or is_html))
+
+        if faq_map is not None and faq_link_field:
+            faq_ids = f.get(faq_link_field) or []
+            if isinstance(faq_ids, str):
+                faq_ids = [faq_ids]
+            lines.extend(render_faq_blocks(faq_ids, faq_map))
 
         lines.append("  </product>")
         exported += 1
@@ -268,9 +334,25 @@ def main():
                 matched += 1
         print(f"Cdiscount: {len(cd_map)} rows loaded, joined onto {matched} records")
 
+    # --- FAQ join ------------------------------------------------------------
+    # FAQ table ("FAQ" = tbl170la2gBX32opn) has one row per Shopify FAQ
+    # metaobject, with Question/Answer pairs per locale (FAQ_LOCALE_FIELDS).
+    # Each Marketplace_Content record links to its FAQs (up to 4, mirroring
+    # Shopify's custom.faq_1..faq_4 product metafields) via the "FAQ" field.
+    faq_table = env("FAQ_TABLE", "tbl170la2gBX32opn")
+    faq_link_field = env("FAQ_LINK_FIELD", "fldWSH8N2abTucrro")
+    faq_map = build_faq_map(token, base_id, faq_table) if faq_table else None
+    if faq_map is not None:
+        blocks = sum(
+            len(faq_map.get(fid, []))
+            for rec in records
+            for fid in (rec.get("fields", {}).get(faq_link_field) or [])
+        )
+        print(f"FAQ: {len(faq_map)} FAQ record(s) loaded, {blocks} question_and_answer block(s) to emit")
+
     xml, exported = build_xml(
         records, field_map, rich_fields, html_fields, id_field,
-        status_field, status_value
+        status_field, status_value, faq_map=faq_map, faq_link_field=faq_link_field
     )
 
     os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)

@@ -177,12 +177,12 @@ def render_faq_blocks(faq_ids, faq_map):
             lines.append("      " + render_tag("question", question, use_cdata=False).strip())
             lines.append("      " + render_tag("answer", answer_html, use_cdata=True).strip())
             lines.append("    </question_and_answer>")
-            # Keep Dutch pairs together for the NL channel mapping.
-            if locale == "nl":
-                lines.append("    <question_and_answer_nl>")
+            # Keep locale-specific pairs together for country channel mappings.
+            if locale in ("nl", "de", "fr"):
+                lines.append(f"    <question_and_answer_{locale}>")
                 lines.append("      " + render_tag("question", question, use_cdata=False).strip())
                 lines.append("      " + render_tag("answer", answer_html, use_cdata=True).strip())
-                lines.append("    </question_and_answer_nl>")
+                lines.append(f"    </question_and_answer_{locale}>")
     return lines
 
 

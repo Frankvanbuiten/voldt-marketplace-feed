@@ -177,6 +177,10 @@ def render_faq_blocks(faq_ids, faq_map):
             lines.append("      " + render_tag("question", question, use_cdata=False).strip())
             lines.append("      " + render_tag("answer", answer_html, use_cdata=True).strip())
             lines.append("    </question_and_answer>")
+            # Flat lists allow country FAQ mapping without extra object fields.
+            if locale in ("de", "fr"):
+                lines.append("    " + render_tag(f"faq_questions_{locale}", question, use_cdata=False).strip())
+                lines.append("    " + render_tag(f"faq_answers_{locale}", answer_html, use_cdata=True).strip())
             # Keep locale-specific pairs together for country channel mappings.
             if locale in ("nl", "de", "fr"):
                 lines.append(f"    <question_and_answer_{locale}>")

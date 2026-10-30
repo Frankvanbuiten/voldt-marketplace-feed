@@ -289,6 +289,18 @@ def main():
         "fldul0aRAHgW0yhRp": "kaufland_description_pl",
         "fld3H1Owa8X8vXuUb": "title_nl",
         "fldEqFLWovYTtcKVz": "description_nl",
+        # Amazon attributes copied into Marketplace_Content (plain text/numbers).
+        "fldluI2qE03NQTwma": "package_length_cm",
+        "fldaFMlKqjP0udoO8": "package_width_cm",
+        "fldxgI6XEFXXS9DbD": "package_height_cm",
+        "fldTIySB1EjkQaQp0": "package_weight_kg",
+        "fld8shAW6iQSqK2el": "item_length_cm",
+        "fldDHXqmNvIb2KJtF": "item_width_cm",
+        "fld1hAH9yVwLap09M": "item_height_cm",
+        "fldsSB8ge3ha83YHj": "item_weight_kg",
+        "fldGVLRt1CXT1SMLU": "size",
+        "fldtm7aJ6CGqwaPDs": "style",
+        "fldqJAIoRBbuJOD1J": "condition",
         "__cdiscount_title__": "cdiscount_title",
         "__cdiscount_description__": "cdiscount_description",
     }

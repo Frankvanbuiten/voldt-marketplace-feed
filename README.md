@@ -118,6 +118,18 @@ The script reads optional env vars:
 To add a second marketplace later, copy the table (e.g. `Bol NL`), add a second
 job/workflow with `AIRTABLE_TABLE=Bol NL` and `FEED_OUTPUT=docs/bol-nl.xml`.
 
+## Amazon attributes (dimensions etc.)
+
+Marketplace_Content carries attributes copied from the Amazon market tables
+(source: DE, fallback FR/UK/IT/ES/NL). They are emitted as plain-text tags per
+product; empty when the variant has no Amazon data:
+
+`package_length_cm`, `package_width_cm`, `package_height_cm`, `package_weight_kg`,
+`item_length_cm`, `item_width_cm`, `item_height_cm`, `item_weight_kg`,
+`size`, `style`, `condition`.
+
+`item_weight_kg` is partly an estimate for cables (length x 0.3/0.5 kg/m).
+
 ## FAQ blocks
 
 Each product's linked FAQs (Airtable base `appPn95FPfn3fzi4n`, table **FAQ** =
